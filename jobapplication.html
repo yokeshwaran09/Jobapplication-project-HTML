@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application Form</title>
 </head>
-<h1 align="center">Job Application Form</h1>
+
 <body>
+
+    <h1 align="center">Job Application Form</h1>
+
     <form>
     <fieldset>
     <h2>Personal Details:</h2>
     <label>Enter you Name:</label>
-    <input type="text size=20" placeholder="Enter Name as per your aadhar" required>
+    <input type="text" size="20" placeholder="Enter Name as per your aadhar" required>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
     <label>Enter your Email id:</label>
@@ -75,7 +78,7 @@
      &nbsp;&nbsp;&nbsp;&nbsp;
 
      <label>Phone No:</label>
-     <input type="number" Size="10" placeholder="Enter Phone No" required>
+     <input type="tel" Size="10" placeholder="Enter Phone No" required>
      &nbsp;&nbsp;&nbsp;&nbsp;
     <br><br>
 
@@ -93,11 +96,11 @@
     <br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;
     <label>Select a Skills:</label>
-    <input type="checkbox" value="HTML" name="skills" required>HTML
-    <input type="checkbox" value="CSS" name="skills" required>CSS
+    <input type="checkbox" value="HTML" name="skills" >HTML
+    <input type="checkbox" value="CSS" name="skills" >CSS
     <input type="checkbox" value="Java Script" name="skills" required>Java Script
     <input type="checkbox" value="React JS" name="skills" required>React JS
-    <input type="checkbox" value="Python" name="skills" required>Python
+    <input type="checkbox" value="Python" name="skills" >Python
 &nbsp;&nbsp;&nbsp;&nbsp;
     <label>Select a Role:</label>
     <select>
@@ -109,7 +112,7 @@
     </select>
 
     <br><br>
-    <textarea placeholder="Enter about your Experience/Projects" size="100">
+    <textarea placeholder="Enter about your Experience/Projects" rows="5" cols="50">
 
 
     </textarea>
@@ -119,10 +122,10 @@
     <br>
     
     <label>Uplosd Cover Letter</label>
-    <input type="file" maxsize="5Mb" accept=".pdf" required>
+    <input type="file"accept=".pdf" required>
 
-    <button>Submut</button>
-    <button>Reset</button>
+    <button type="submit">Submut</button>
+    <button type="reset">Reset</button>
 
 
      
